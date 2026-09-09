@@ -80,3 +80,7 @@ body .check-grid span::before{
       transform:scale(.245);
   }
 }
+
+/* Portfolio feature text visibility only */
+.check-grid span{color:#fff!important;font-weight:700!important}
+.check-grid span::before{color:#ff7a00!important}
