@@ -88,3 +88,50 @@ body .check-grid span::before{
 /* Reliable local portfolio screen views */
 .project-shot{display:block;overflow:hidden;background:#f7f3ee}
 .project-shot img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}
+
+/* Closeable mini contact popup */
+.mini-contact{position:fixed;inset:0;z-index:99999;display:none}
+.mini-contact.is-open{display:block}
+.mini-contact__backdrop{position:absolute;inset:0;background:rgba(16,20,24,.58);backdrop-filter:blur(4px)}
+.mini-contact__panel{
+  position:absolute;right:24px;bottom:24px;width:min(390px,calc(100vw - 32px));
+  max-height:calc(100vh - 48px);overflow:auto;background:#fff;border:1px solid #eadfd4;
+  border-radius:22px;padding:26px;box-shadow:0 24px 70px rgba(24,31,38,.24)
+}
+.mini-contact__close{
+  position:absolute;right:14px;top:10px;width:38px;height:38px;border:0;border-radius:50%;
+  background:#f6f2ed;color:#1f2933;font-size:27px;line-height:1;cursor:pointer
+}
+.mini-contact__eyebrow{
+  display:inline-block;margin-bottom:8px;color:#d95f00;font-size:.78rem;font-weight:800;
+  letter-spacing:.12em;text-transform:uppercase
+}
+.mini-contact__panel h2{margin:0 40px 8px 0;font-size:1.65rem;line-height:1.2}
+.mini-contact__panel>p{margin:0 0 18px;color:#66717d;font-size:.95rem}
+.mini-contact__panel form{display:grid;gap:13px}
+.mini-contact__panel label{display:grid;gap:6px;font-size:.88rem;font-weight:700;color:#29333c}
+.mini-contact__panel label span{font-weight:500;color:#89919a}
+.mini-contact__panel input,
+.mini-contact__panel select,
+.mini-contact__panel textarea{
+  width:100%;box-sizing:border-box;border:1px solid #dcd7d0;border-radius:12px;
+  padding:11px 12px;background:#fff;color:#1d252c;font:inherit;outline:none
+}
+.mini-contact__panel input:focus,
+.mini-contact__panel select:focus,
+.mini-contact__panel textarea:focus{border-color:#ff7a00;box-shadow:0 0 0 3px rgba(255,122,0,.12)}
+.mini-contact__submit{width:100%;margin-top:2px}
+.mini-contact__later{
+  border:0;background:transparent;color:#6b747d;font-weight:700;cursor:pointer;padding:4px 0
+}
+.mini-contact-trigger{
+  position:fixed;right:22px;bottom:92px;z-index:9990;border:0;border-radius:999px;
+  padding:12px 17px;background:#202328;color:#fff;font-weight:800;box-shadow:0 10px 30px rgba(0,0,0,.18);
+  cursor:pointer
+}
+.mini-contact-trigger:hover{background:#ff7a00}
+body.mini-contact-open{overflow:hidden}
+@media(max-width:640px){
+  .mini-contact__panel{right:16px;left:16px;bottom:16px;width:auto;max-height:calc(100vh - 32px)}
+  .mini-contact-trigger{right:16px;bottom:86px}
+}
