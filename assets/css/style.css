@@ -55,3 +55,28 @@ body .check-grid span::before{
   color:#fff !important;
   font-weight:700 !important;
 }
+
+/* Portfolio live website screen view */
+.portfolio-page .project-shot{
+    position:relative;
+    overflow:hidden;
+    background:#f6f3ef;
+    height:220px;
+}
+.portfolio-page .live-site-preview{
+    width:1440px;
+    height:900px;
+    border:0;
+    transform:scale(.255);
+    transform-origin:top left;
+    pointer-events:none;
+    background:#fff;
+}
+@media (max-width:700px){
+  .portfolio-page .project-shot{height:190px}
+  .portfolio-page .live-site-preview{
+      width:1366px;
+      height:768px;
+      transform:scale(.245);
+  }
+}
