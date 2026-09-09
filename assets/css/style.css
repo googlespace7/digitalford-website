@@ -84,3 +84,7 @@ body .check-grid span::before{
 /* Portfolio feature text visibility only */
 .check-grid span{color:#fff!important;font-weight:700!important}
 .check-grid span::before{color:#ff7a00!important}
+
+/* Reliable local portfolio screen views */
+.project-shot{display:block;overflow:hidden;background:#f7f3ee}
+.project-shot img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}
