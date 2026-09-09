@@ -20,3 +20,5 @@
 .socials a svg .cutout{fill:var(--dark,#20262b);stroke:none}
 .whatsapp{display:flex;align-items:center;justify-content:center}
 .whatsapp svg{width:25px;height:25px;fill:currentColor}
+
+.article-content{font-size:1.06rem;line-height:1.8}.article-content h2{margin-top:2.2rem;margin-bottom:.7rem}.article-content p{margin:0 0 1.2rem}.blog-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:16px;margin-bottom:18px}
