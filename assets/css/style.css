@@ -35,3 +35,23 @@ body .check-grid span::before{
     color:#ff7a00 !important;
     font-weight:900 !important;
 }
+
+/* Portfolio screen-view restoration */
+.portfolio-page .project-shot{
+  display:block;
+  overflow:hidden;
+  background:#f2f2f2;
+  aspect-ratio:1200/760;
+}
+.portfolio-page .project-shot img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top center;
+}
+.portfolio-page .check-grid span,
+.portfolio-page .portfolio-checks span{
+  color:#fff !important;
+  font-weight:700 !important;
+}
