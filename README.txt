@@ -1,23 +1,14 @@
-DIGITALFORD.IN STATIC WEBSITE
+DIGITALFORD.IN – PROFESSIONAL SAFFRON WEBSITE
 
-Upload all files and folders in this package to your domain public_html / website root.
+Upload all files and folders to the root of your GitHub repository. Keep CNAME as digitalford.in.
 
-Main contact: +91 98663 83147
-WhatsApp buttons are already connected to this number.
+Blog workflow:
+1. Duplicate blog/blog-template.html.
+2. Rename it using a clean slug.
+3. Replace title, meta description, canonical, Article schema and content.
+4. Add the article link to blog.html.
+5. Add its URL to sitemap.xml.
 
-SOCIAL LINKS:
-Search for href="#" in the HTML files and replace each placeholder with your real Facebook, Instagram, LinkedIn, YouTube and X URLs.
+Social media links are placeholders (#) in the footer. Replace them when your profile URLs are available.
 
-CONTACT FORM:
-The contact form currently sends enquiries through WhatsApp, so it works without server code.
-
-SEO:
-- Unique title and meta description per page
-- Local keyword targeting
-- Canonical URLs
-- Schema markup
-- robots.txt
-- sitemap.xml
-- Separate service pages
-
-Before launch, add your logo/favicon, real social links, business email, and Google Analytics / Search Console codes if you use them.
+SEO note: Structured data helps search engines understand the site but does not guarantee sitelinks or rich results.
