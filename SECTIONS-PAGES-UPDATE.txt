@@ -1,0 +1,20 @@
+Digitalford Templates — Sections & Pages Builder
+
+Implemented:
+- + Section picker inside live preview editor
+- + Page picker inside live preview editor
+- Category-aware section choices
+- Page presets and custom page naming
+- Up to 8 pages per customized template
+- Up to 12 added sections per page
+- Direct inline text editing on added content
+- Direct image upload/replacement on added content
+- Move up / move down / remove section controls
+- Remove added page control
+- Page switcher in editor toolbar
+- Added pages appear in preview navigation/footer
+- Page/section structure persisted in localStorage
+- Selected-template enquiry includes added page names
+- Reset restores original template structure
+
+No redesign of the main Digitalford site was performed.

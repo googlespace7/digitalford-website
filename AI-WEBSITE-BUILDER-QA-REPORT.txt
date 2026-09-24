@@ -1,0 +1,41 @@
+Digitalford AI Website Builder — QA / usability fix report
+Date: 2026-09-24
+
+Fixes implemented
+- Rebuilt the contact section that previously produced oversized orange editable boxes and a cramped CTA.
+- Contact details now render as four clean, responsive cards with labels and editable values.
+- Section controls now use a compact “Section” menu instead of a long toolbar covering content.
+- Item controls are compact and appear contextually instead of permanently covering product/service cards.
+- Added automatic multi-page generation: Home, About, relevant Products and/or Services pages, and Contact.
+- Added a prominent + Add Page option with About, Products, Services, Gallery, Portfolio, FAQ, Testimonials, Contact and Custom page presets.
+- Added per-page Page Settings & SEO: page name, URL slug, SEO title and meta description.
+- Every auto-generated or newly added page receives a natural SEO title, meta description and starter content that remains editable.
+- Improved local fallback copy so visible website content is customer-facing rather than builder/instructional copy.
+- Enhanced custom categories such as fashion, wellness and travel with more relevant fallback products/services and sample prices.
+- Preserved inline text editing, image replacement, prices, section/page editing, colors, typography, spacing, undo/redo and reset.
+
+Browser regression testing performed through Chromium using an isolated inline test harness because direct localhost/private-file navigation is blocked by the execution environment.
+- 4-step onboarding: passed (Step 1 → 2 → 3 → 4)
+- Quick generation from basic business details: passed
+- Products + Services sample: passed
+- Products-only sample: passed
+- Services-only sample: passed
+- Portfolio/information sample: passed
+- Automatic page creation: passed
+- + Add Page modal: passed
+- Added FAQ page with generated SEO: passed
+- Page Settings & SEO modal: passed
+- Contact section desktop layout: passed, no horizontal overflow
+- Responsive checks at 375px, 768px and 1440px: passed, no page-level horizontal overflow
+- Contact section at 375px: passed, no internal horizontal overflow
+- Natural SEO sample: “Priya Collections | Fashion Boutique in Valigonda” (49 chars)
+- Natural meta description sample: 148 chars
+- JavaScript syntax: passed
+- PHP syntax: passed
+- Duplicate HTML IDs: none
+- Missing local references: none
+- CSS brace validation: passed
+
+Important content note
+- Generated prices are sample draft values, not verified business prices. They remain fully editable before publishing.
+- Auto-generated claims avoid invented ratings, awards, years in business, credentials, guarantees or customer counts.

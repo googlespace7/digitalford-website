@@ -1,0 +1,19 @@
+Digitalford AI Website Builder — Commerce Extension QA
+Date: 2026-09-24
+
+Checks completed:
+- ai-builder.js syntax: PASS (node --check)
+- api/ai-generate.php syntax: PASS (php -l)
+- AI Website Builder duplicate HTML IDs: PASS (0 duplicates)
+- Social-media editor fields present: PASS
+- Product actions present in generated-card renderer: Buy Now / Add to Cart / Save
+- Service action present in generated-card renderer: Enquiry Now
+- Generated navigation actions present: Cart / Wishlist / Customer Account
+- WhatsApp generated-site action present
+- Cart/wishlist/account/order-history browser-local persistence implemented
+- Checkout/order request WhatsApp handoff implemented
+- Products + Cart and Services + Enquiry editor section presets implemented
+- ZIP integrity: PASS
+
+Environment limitation:
+Headless Chromium navigation to the local test server is blocked by administrator policy in this execution environment, so full browser click-through automation could not be completed here. Static syntax/structure/integrity checks were completed.

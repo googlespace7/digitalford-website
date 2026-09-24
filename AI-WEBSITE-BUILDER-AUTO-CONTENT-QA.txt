@@ -1,0 +1,21 @@
+DIGITALFORD AI WEBSITE BUILDER — AUTO CONTENT QA
+
+Verified:
+- Manual Products & Services onboarding step removed.
+- Builder onboarding now contains 4 steps.
+- Required basic fields include Business Name, Business Category, Business Type, Business Description and Location.
+- "Create Website Now" is available directly from Step 1.
+- Audience, website goals and brand direction are optional.
+- JavaScript syntax check passed.
+- PHP syntax check passed.
+- CSS brace balance passed.
+- Builder page contains no duplicate IDs.
+- Builder local CSS/JS/image references resolve.
+- Whole-site local link/asset scan reports 0 missing local targets when root-relative links are resolved correctly.
+- Secure AI endpoint nonce endpoint responds correctly under PHP hosting.
+- API returns the expected "not configured" response when OPENAI_API_KEY is absent, allowing the frontend smart local fallback to be used.
+- Smart fallback includes inferred products/services, editable sample pricing, realistic category-matched Pexels image URLs and an auto-generated editable SVG starter logo.
+- Existing visual editor remains available for inline text editing, price changes, product/service changes, image replacement, logo replacement, page/section editing, colors and layout changes.
+
+Environment limitation:
+- Automated Chromium navigation is blocked by the execution environment administrator, so browser click-through automation could not be completed. Static DOM, syntax, endpoint and reference checks were completed instead.
