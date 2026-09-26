@@ -215,3 +215,23 @@ section:not(.hero):not(.page-hero):not(.df-horizontal)::after{content:"";positio
 @media(max-width:480px){
   .df-horizontal__intro,.df-horizontal__panel{width:86vw;min-width:86vw;min-height:590px;padding:32px 24px}.df-roadmap-visual,.df-step-visual{width:165px}.df-roadmap-core{width:72px;height:72px;border-radius:22px;font-size:12px}.df-roadmap-visual>i{font-size:8px;padding:6px 7px;transform:rotate(var(--a)) translateX(74px) rotate(calc(var(--a) * -1)) translate(-50%,-50%)}.df-step-visual__icon{width:64px;height:64px;border-radius:20px;font-size:26px}
 }
+
+
+/* 2026-09-27 UX refinement: compact growth roadmap */
+@media(min-width:801px){
+  .df-horizontal__viewport{min-height:72vh!important;}
+  .df-horizontal__track{gap:22px!important;}
+  .df-horizontal__intro,.df-horizontal__panel{min-height:500px!important;padding:38px 44px!important;border-radius:24px!important;gap:36px!important;}
+  .df-horizontal__intro{width:min(72vw,980px)!important;min-width:min(72vw,980px)!important;}
+  .df-horizontal__panel{width:min(60vw,800px)!important;min-width:min(60vw,800px)!important;}
+  .df-horizontal h2{font-size:clamp(34px,3.7vw,54px)!important;margin-bottom:16px!important;}
+  .df-horizontal__panel h3{font-size:clamp(29px,3vw,44px)!important;margin-bottom:14px!important;}
+  .df-horizontal__intro p,.df-horizontal__panel p{font-size:clamp(14px,1vw,16px)!important;line-height:1.6!important;}
+  .df-roadmap-visual,.df-step-visual{width:min(245px,100%)!important;}
+  .df-roadmap-visual>i{transform:rotate(var(--a)) translateX(96px) rotate(calc(var(--a) * -1)) translate(-50%,-50%)!important;}
+  .df-horizontal__intro-tags,.df-horizontal__path{margin-top:20px!important;}
+}
+@media(max-width:800px){
+  .df-horizontal__viewport{padding:36px 0!important;}
+  .df-horizontal__intro,.df-horizontal__panel{min-height:520px!important;padding:30px 24px!important;}
+}
