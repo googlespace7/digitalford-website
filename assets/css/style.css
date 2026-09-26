@@ -135,3 +135,11 @@ body.mini-contact-open{overflow:hidden}
   .mini-contact__panel{right:16px;left:16px;bottom:16px;width:auto;max-height:calc(100vh - 32px)}
   .mini-contact-trigger{right:16px;bottom:86px}
 }
+
+/* SEO-friendly decorative step numbers + lightweight page sharing */
+.strip-grid .step-no,.process .step-no{color:var(--saffron-dark);font-size:12px;font-weight:700;line-height:1}
+.page-share{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px}
+.page-share__label{font-size:12px;color:#9fa4ab;margin-right:2px}
+.page-share a{display:inline-flex!important;align-items:center;justify-content:center;min-width:34px;height:34px;padding:0 10px;margin:0!important;border:1px solid #34373d;border-radius:9px;color:#d8dce2!important;font-size:11px;font-weight:700;text-decoration:none;transition:border-color .18s ease,background .18s ease,color .18s ease}
+.page-share a:hover,.page-share a:focus-visible{border-color:#6f7782;background:#1b2028;color:#fff!important}
+@media(max-width:600px){.page-share{gap:6px}.page-share a{min-width:32px;height:32px;padding:0 8px;font-size:10px}}

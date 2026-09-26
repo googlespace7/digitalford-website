@@ -1,0 +1,7 @@
+# Digitalford canonical HTTPS redirect
+RewriteEngine On
+
+# Redirect all HTTP traffic and www hostnames to the canonical HTTPS non-www URL.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.digitalford\.in$ [NC]
+RewriteRule ^ https://digitalford.in%{REQUEST_URI} [R=301,L,NE]
