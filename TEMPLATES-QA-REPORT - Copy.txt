@@ -1,0 +1,43 @@
+DIGITALFORD TEMPLATES FEATURE — QA SUMMARY
+Date: 2026-09-24
+
+Architecture inspected
+- Static HTML/CSS/JavaScript site with CNAME/.nojekyll deployment files.
+- No WordPress core, wp-content, PHP theme hierarchy, page builder, database config, WordPress REST/AJAX code, or CMS admin architecture present.
+- Existing enquiries use client-side JavaScript to open Digitalford's existing WhatsApp configuration.
+
+Implemented checks
+- 12 template records across 12 requested categories.
+- 12 optimized SVG thumbnails present.
+- Requested search terms map to at least one template.
+- Category filters are generated dynamically from template data.
+- Preview renderer includes 12 category-specific layouts.
+- Customizer supports immediate text/color updates, logo/hero image preview uploads and category-specific fields.
+- E-commerce includes product names, prices, categories and product image fields.
+- Real Estate includes property titles, locations, prices and property image fields.
+- Desktop/tablet/mobile preview modes are present.
+- Mobile Edit/Preview tabs are present.
+- Reset Changes is present.
+- Choose This Template populates the existing Quick Enquiry/WhatsApp flow with template ID, name, category and URL reference.
+- Discuss This Template on WhatsApp derives the existing Digitalford WhatsApp number from the site's existing links.
+- Ratings start at 0; no ratings/reviews were fabricated.
+
+Validation
+- templates.js: Node syntax check passed.
+- templates-data.js: Node syntax check passed.
+- templates.css: CSS parser returned 0 parse errors.
+- rate.php: PHP syntax check passed.
+- Rating API tested with nonce-protected POST: accepted valid 1–5 rating.
+- Duplicate rating protection tested: second recent vote rejected.
+- Invalid template rejected with HTTP 400.
+- POST without nonce rejected with HTTP 403.
+- Rating data reset to empty before packaging.
+- 43 HTML files parsed successfully.
+- 0 missing local href/src targets found after implementation.
+- Every existing page with the primary navigation includes the Templates link.
+- Regression comparison confirmed existing HTML pages differ only by the new Templates navigation link.
+- sitemap.xml includes https://digitalford.in/templates/.
+
+Environment limitation
+- The execution environment blocks headless Chromium navigation, so interactive browser rendering could not be visually automated here. Static DOM/link/CSS/JS validation and live PHP endpoint tests were completed instead.
+- On static-only hosting (for example GitHub Pages), PHP cannot execute. The rating client therefore falls back to localStorage. Shared/global ratings require PHP-capable hosting or a connected serverless/database endpoint.

@@ -1,0 +1,22 @@
+Digitalford AI Website Builder — Regeneration Update QA
+
+Implemented:
+- Prominent Generate Another Design button in the result toolbar
+- Regenerate prompt below generated-result summary
+- Regenerate control inside Visual Editor toolbar
+- Fresh Website Version mode
+- New Design, Same Content mode
+- Restore Previous version control
+- Alternative visual layouts, spacing, typography, imagery and section order
+- Alternative local-fallback hero copy for regenerated versions
+- Server-side regeneration hint/variation index for configured AI endpoint
+
+Validation completed:
+- JavaScript syntax: PASS
+- PHP syntax: PASS
+- HTML duplicate IDs: 0
+- Required regeneration controls present: PASS
+- Local HTML/CSS/JS/image reference scan: 0 missing targets
+- AI endpoint nonce test: PASS
+- AI endpoint safely reports not configured when OPENAI_API_KEY is absent: PASS
+- Automated Chromium navigation was blocked by the execution environment administrator, so full browser click-through automation could not be completed here.

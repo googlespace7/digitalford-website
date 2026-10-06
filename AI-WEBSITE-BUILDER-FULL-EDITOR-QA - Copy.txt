@@ -1,0 +1,29 @@
+DIGITALFORD AI WEBSITE BUILDER — FULL VISUAL EDITOR QA
+
+Implemented:
+- Inline contenteditable text with adjacent edit controls
+- Direct image/logo replacement controls
+- Add/remove/duplicate/reorder sections
+- Section layout and background controls
+- Add/remove/duplicate cards/items
+- Add/rename/delete/switch pages
+- Page navigation updates from the page model
+- Global site styling controls
+- Contact and SEO settings
+- Undo / redo / reset
+- Save draft support
+- Existing device preview, regenerate and WhatsApp publish flow preserved
+
+Static validation performed:
+- ai-builder.js syntax: PASS (Node.js --check)
+- templates.js syntax: PASS (Node.js --check)
+- api/ai-generate.php syntax: PASS (php -l)
+- templates/api/rate.php syntax: PASS (php -l)
+- ai-website-builder.html duplicate IDs: 0
+- AI Builder local CSS/JS/image references missing: 0
+- sitemap.xml XML parse: PASS
+- ai-builder.css brace balance: PASS
+- Required visual-editor controls present: PASS
+
+Browser automation note:
+Headless Chromium navigation is blocked by the execution environment's administrator policy, so automated click-through browser testing could not be completed here. Static/runtime syntax and project-reference checks were completed instead.

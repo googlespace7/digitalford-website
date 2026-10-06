@@ -1,0 +1,66 @@
+Target location: Bhuvanagiri, Telangana
+Blogs excluded from content changes.
+
+index.html
+  Title: Digital Marketing Services in Bhuvanagiri, Telangana | Digitalford
+  Description: Digitalford provides SEO, Local SEO, Google Ads, Meta Ads, social media marketing, website design and lead generation services for businesses in Bhuvanagiri, Telangana.
+
+about.html
+  Title: About Digitalford | Digital Marketer in Bhuvanagiri, Telangana
+  Description: Learn about Digitalford, a Bhuvanagiri, Telangana digital marketing service helping local businesses with SEO, paid ads, websites, content, social media and lead generation.
+
+services.html
+  Title: Digital Marketing Services in Bhuvanagiri, Telangana | Digitalford
+  Description: Explore SEO, Local SEO, Google Ads, Meta Ads, social media marketing, website design, content marketing and lead generation services in Bhuvanagiri, Telangana.
+
+seo.html
+  Title: SEO Services in Bhuvanagiri, Telangana | Digitalford
+  Description: SEO services in Bhuvanagiri, Telangana for businesses that want stronger Google visibility, better organic traffic, optimized service pages and measurable search growth.
+
+local-seo.html
+  Title: Local SEO Services in Bhuvanagiri, Telangana | Digitalford
+  Description: Local SEO services in Bhuvanagiri, Telangana including Google Business Profile optimization, local keyword targeting, service-area content and local search improvements.
+
+google-ads.html
+  Title: Google Ads Services in Bhuvanagiri, Telangana | Digitalford
+  Description: Google Ads management in Bhuvanagiri, Telangana for local businesses seeking relevant search traffic, qualified enquiries and conversion-focused paid campaigns.
+
+meta-ads.html
+  Title: Meta Ads Services in Bhuvanagiri, Telangana | Digitalford
+  Description: Meta Ads services in Bhuvanagiri, Telangana for Facebook and Instagram campaigns focused on local reach, leads, enquiries, remarketing and business growth.
+
+social-media-marketing.html
+  Title: Social Media Marketing in Bhuvanagiri, Telangana | Digitalford
+  Description: Social media marketing services in Bhuvanagiri, Telangana including content planning, creatives, profile management and campaigns designed for local business growth.
+
+web-design.html
+  Title: Website Design in Bhuvanagiri, Telangana | Digitalford
+  Description: Professional website design in Bhuvanagiri, Telangana with responsive layouts, SEO-friendly structure, clear calls to action and conversion-focused business pages.
+
+content-marketing.html
+  Title: Content Marketing in Bhuvanagiri, Telangana | Digitalford
+  Description: Content marketing services in Bhuvanagiri, Telangana for SEO pages, service content, website copy, social content and useful customer-focused digital communication.
+
+email-marketing.html
+  Title: Email Marketing Services in Bhuvanagiri, Telangana | Digitalford
+  Description: Email marketing services in Bhuvanagiri, Telangana for customer follow-up, promotions, retention campaigns, lead nurturing and practical business communication.
+
+lead-generation.html
+  Title: Lead Generation Services in Bhuvanagiri, Telangana | Digitalford
+  Description: Lead generation services in Bhuvanagiri, Telangana using SEO, Google Ads, Meta Ads, landing pages and conversion-focused strategies to generate business enquiries.
+
+ai-video.html
+  Title: AI Video Creation in Bhuvanagiri, Telangana | Digitalford
+  Description: AI video creation services in Bhuvanagiri, Telangana for social media, advertisements, product promotions, business storytelling and digital marketing campaigns.
+
+contact.html
+  Title: Contact Digitalford | Digital Marketing in Bhuvanagiri, Telangana
+  Description: Contact Digitalford for SEO, Google Ads, Meta Ads, website design, social media marketing and lead generation services in Bhuvanagiri, Telangana.
+
+faq.html
+  Title: Digital Marketing FAQs | Digitalford Bhuvanagiri, Telangana
+  Description: Get answers about SEO, Local SEO, Google Ads, Meta Ads, website design, social media and working with Digitalford in Bhuvanagiri, Telangana.
+
+portfolio.html
+  Title: Digital Marketing Portfolio | Digitalford Bhuvanagiri, Telangana
+  Description: Explore Digitalford website, SEO and advertising work. Digitalford provides digital marketing services from Bhuvanagiri, Telangana for businesses across different categories.

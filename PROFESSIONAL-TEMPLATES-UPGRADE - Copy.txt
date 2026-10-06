@@ -1,0 +1,14 @@
+DIGITALFORD PROFESSIONAL TEMPLATES UPGRADE
+
+Updated scope:
+- Kept the existing Templates page/search/filter/preview/customizer/rating/enquiry architecture.
+- Upgraded all 12 sample templates to fuller, realistic website designs.
+- Added category-specific professional stock photography references for hero, product, service, portfolio, property, food, clinic, education, travel and beauty sections.
+- Added more complete page structures, realistic content blocks, stats, trust areas, CTAs, galleries and category-specific navigation labels.
+- Improved template listing cards so they look like website previews rather than simple flat thumbnails.
+- Preserved live editing, image replacement, reset, responsive device preview, ratings, WhatsApp and Choose This Template flow.
+
+Important:
+- Sample stock photography is loaded from the Pexels CDN. An internet connection is required to see the default sample photos while testing locally.
+- User-uploaded preview images remain local browser data and override the sample image in the current preview.
+- Existing Digitalford pages were not redesigned by this update.

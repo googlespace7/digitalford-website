@@ -1,0 +1,408 @@
+{
+  "pages_checked": 49,
+  "missing_original_files": [],
+  "original_text_differences_except_phone": [],
+  "changed_original_image_files": [],
+  "social_url_repairs": [
+    "blog/jev-ai-telugu.html",
+    "blog/blog-template.html",
+    "blog/jev-ai.html",
+    "templates/index.html"
+  ],
+  "page_inventory": [
+    {
+      "page": "404.html",
+      "images": 2,
+      "links": 46,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "about.html",
+      "images": 2,
+      "links": 56,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "ai-video.html",
+      "images": 3,
+      "links": 57,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "ai-website-builder.html",
+      "images": 2,
+      "links": 53,
+      "forms": 1,
+      "sections": 8,
+      "shared_design": true
+    },
+    {
+      "page": "blog-english.html",
+      "images": 23,
+      "links": 72,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog-telugu.html",
+      "images": 3,
+      "links": 52,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog.html",
+      "images": 2,
+      "links": 52,
+      "forms": 1,
+      "sections": 3,
+      "shared_design": true
+    },
+    {
+      "page": "blog/best-digital-marketing-agency-bhuvanagiri.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/blog-template.html",
+      "images": 2,
+      "links": 53,
+      "forms": 0,
+      "sections": 0,
+      "shared_design": true
+    },
+    {
+      "page": "blog/digital-marketing-cost-bhuvanagiri.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/digital-marketing-small-business-telangana.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/facebook-ads-junk-leads.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/get-more-google-reviews.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/get-more-leads-from-google.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/google-ads-clicks-no-leads.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/google-ads-small-business-guide.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/google-ads-vs-meta-ads.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/google-business-profile-optimization-checklist.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/google-maps-ranking-bhuvanagiri.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/how-long-does-seo-take.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/jev-ai-telugu.html",
+      "images": 4,
+      "links": 32,
+      "forms": 0,
+      "sections": 7,
+      "shared_design": true
+    },
+    {
+      "page": "blog/jev-ai.html",
+      "images": 3,
+      "links": 31,
+      "forms": 0,
+      "sections": 7,
+      "shared_design": true
+    },
+    {
+      "page": "blog/local-keyword-research.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/local-seo-bhuvanagiri-guide.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/local-seo-bhuvanagiri.html",
+      "images": 2,
+      "links": 67,
+      "forms": 0,
+      "sections": 0,
+      "shared_design": true
+    },
+    {
+      "page": "blog/local-seo-mistakes.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/meta-ads-local-business-leads.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/seo-mistakes-digital-marketers-miss-2027-english.html",
+      "images": 9,
+      "links": 24,
+      "forms": 0,
+      "sections": 13,
+      "shared_design": true
+    },
+    {
+      "page": "blog/seo-mistakes-digital-marketers-miss-2027.html",
+      "images": 9,
+      "links": 24,
+      "forms": 0,
+      "sections": 13,
+      "shared_design": true
+    },
+    {
+      "page": "blog/seo-services-bhuvanagiri-guide.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/seo-vs-google-ads-small-business.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/small-business-seo-checklist.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "blog/website-seo-15-things.html",
+      "images": 3,
+      "links": 66,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "contact.html",
+      "images": 2,
+      "links": 53,
+      "forms": 2,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "content-marketing.html",
+      "images": 3,
+      "links": 57,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "email-marketing.html",
+      "images": 3,
+      "links": 57,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "faq.html",
+      "images": 2,
+      "links": 56,
+      "forms": 0,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "google-ads.html",
+      "images": 3,
+      "links": 56,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "index.html",
+      "images": 2,
+      "links": 86,
+      "forms": 1,
+      "sections": 10,
+      "shared_design": true
+    },
+    {
+      "page": "lead-generation.html",
+      "images": 3,
+      "links": 57,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "local-seo.html",
+      "images": 3,
+      "links": 56,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "meta-ads.html",
+      "images": 3,
+      "links": 56,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "portfolio.html",
+      "images": 8,
+      "links": 65,
+      "forms": 1,
+      "sections": 5,
+      "shared_design": true
+    },
+    {
+      "page": "privacy.html",
+      "images": 2,
+      "links": 47,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "seo.html",
+      "images": 3,
+      "links": 56,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "services.html",
+      "images": 3,
+      "links": 63,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "social-media-marketing.html",
+      "images": 3,
+      "links": 57,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    },
+    {
+      "page": "templates/index.html",
+      "images": 2,
+      "links": 50,
+      "forms": 1,
+      "sections": 4,
+      "shared_design": true
+    },
+    {
+      "page": "web-design.html",
+      "images": 3,
+      "links": 56,
+      "forms": 1,
+      "sections": 2,
+      "shared_design": true
+    }
+  ],
+  "browser_visual_qa": "Not verified; browser unavailable",
+  "external_backend_tests": "Not performed"
+}

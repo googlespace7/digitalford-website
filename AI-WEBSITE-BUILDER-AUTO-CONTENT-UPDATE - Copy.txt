@@ -1,0 +1,34 @@
+DIGITALFORD AI WEBSITE BUILDER — AUTOMATIC CONTENT GENERATION UPDATE
+
+Implemented changes
+- Removed the separate Products & Services onboarding step.
+- Added Business Type on the basic business-details step:
+  Products + Services / Products / Services / Portfolio / Information.
+- Business description now explicitly asks the visitor to mention the types of products sold and services offered.
+- Added "Create Website Now" on Step 1 so a visitor can generate immediately after entering the required business basics.
+- Audience, goals, style, colors and uploaded logo remain optional preferences.
+- Reduced onboarding from 5 steps to 4.
+
+Automatic website draft
+- The generator now infers relevant products and/or services from the business description and category.
+- It creates editable product/service names, descriptions and sample/demo price suggestions.
+- It creates separate Products and Services sections where appropriate.
+- It matches realistic category-appropriate Pexels sample photography for hero, product/service and supporting cards.
+- It creates a starter SVG logo automatically when no logo is uploaded.
+- The generated logo, all images, prices, names, copy, colors, pages and sections remain editable in the existing visual editor.
+
+AI backend
+- The secure PHP endpoint now accepts businessType and no longer requires manually entered offers.
+- When OPENAI_API_KEY is configured, the AI is instructed to infer products/services and return editable sample pricing plus image keywords.
+- The frontend applies realistic category-matched imagery to generated items.
+- If the AI endpoint is unavailable, the existing smart local fallback still builds a complete editable draft using category knowledge plus terms extracted from the user's business description.
+
+Pricing note
+- Auto-generated prices are explicitly treated as editable sample/demo suggestions. They should be reviewed before publishing and are not presented as verified prices supplied by the business.
+
+Images
+- Default generated draft imagery is realistic category-matched Pexels photography loaded from the web.
+- Images can be replaced directly inside the visual editor using the existing Replace Image controls.
+- Internet access is required to display the default Pexels sample photographs.
+
+No unrelated Digitalford pages were redesigned for this update.

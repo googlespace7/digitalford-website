@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalford.in/sitemap.xml
+
+User-agent: Googlebot-Image
+Allow: /assets/images/

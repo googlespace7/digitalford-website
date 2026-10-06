@@ -1,0 +1,16 @@
+Digitalford Templates - Inline Live Customizer Update
+
+Implemented:
+- Text editing now happens directly beside the text inside the template preview.
+- Editable text shows a pencil control in live edit mode; double-clicking text also starts editing.
+- Changes sync immediately to repeated instances of the same field in the preview.
+- Every template preview image receives a Replace image control directly on the image.
+- Hero/background image replacement is available directly on background-image hero sections.
+- Logo replacement is available beside the logo itself.
+- Primary and accent colors are editable from the floating in-preview Live edit toolbar.
+- Reset, Choose Template and Done are available in the same floating toolbar.
+- Separate long form customizer fields are no longer required during live editing.
+- Uploaded preview images are retained while the visitor stays on the Templates page session.
+- Existing ratings, device previews, fullscreen preview, WhatsApp and Choose Template flows are preserved.
+
+Image upload validation: JPG/PNG/WebP, maximum 2 MB per image.

@@ -1,0 +1,10 @@
+Digitalford Templates - Ask for Price Update
+
+Added an Ask for Price WhatsApp action to:
+- Every template card
+- Template preview/details sidebar
+- Live edit toolbar
+
+The prefilled WhatsApp message includes template name, ID, category and reference URL. When used from an edited template it also includes relevant changed business details and added page names when available.
+
+The WhatsApp number is read from the existing Digitalford wa.me links; no new number is hard-coded into the templates feature.
