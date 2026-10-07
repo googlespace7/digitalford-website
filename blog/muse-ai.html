@@ -273,34 +273,28 @@
     .breadcrumbs{width:min(1200px,calc(100% - 32px));margin:20px auto 0;font-size:.9rem;color:var(--muse-muted)}
     .breadcrumbs a{color:var(--muse-muted);text-decoration:none}
     .breadcrumbs span{padding:0 8px}
-    .hero{
-      width:min(1200px,calc(100% - 32px));margin:0 auto;padding:44px 0 38px;
-      display:grid;grid-template-columns:minmax(0,1.08fr) minmax(400px,.92fr);gap:42px;align-items:center
-    }
+    .hero{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:28px 0 22px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(360px,.9fr);gap:30px;align-items:center}
     .eyebrow{
       display:inline-flex;align-items:center;gap:8px;
       padding:8px 12px;border:1px solid rgba(255,92,10,.18);border-radius:999px;
       background:rgba(255,92,10,.07);color:#b84000;font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em
     }
-    .hero h1{
-      margin:18px 0 18px;font-size:clamp(2.45rem,5.2vw,5.1rem);line-height:.99;letter-spacing:-.055em;color:var(--muse-navy)
-    }
+    .hero h1{margin:14px 0 14px;font-size:clamp(2rem,4vw,4rem);line-height:1.015;letter-spacing:-.045em;color:var(--muse-navy)}
     .hero h1 .accent{
       background:linear-gradient(90deg,var(--muse-primary),#ee7b31 45%,var(--muse-teal));
       -webkit-background-clip:text;background-clip:text;color:transparent
     }
-    .hero-lead{font-size:1.14rem;color:#46545f;max-width:66ch;margin:0 0 20px}
-    .hero-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+    .hero-lead{font-size:1.02rem;color:#46545f;max-width:62ch;margin:0 0 16px}
+    .hero-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
     .meta-pill{padding:7px 10px;border:1px solid var(--muse-border);border-radius:999px;background:#fff;color:#56636d;font-size:.82rem;font-weight:700}
-    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
     .btn{
       display:inline-flex;align-items:center;justify-content:center;gap:8px;
       min-height:46px;padding:0 18px;border-radius:14px;text-decoration:none;font-weight:800
     }
     .btn-primary{background:var(--muse-primary);color:#fff;box-shadow:0 12px 24px rgba(255,92,10,.18)}
     .btn-secondary{background:#fff;color:var(--muse-navy);border:1px solid var(--muse-border)}
-    .agent-stage{
-      position:relative;overflow:hidden;min-height:480px;border-radius:34px;
+    .agent-stage{position:relative;overflow:hidden;min-height:390px;border-radius:30px;
       background:linear-gradient(145deg,var(--muse-teal),#0a2937 60%,#13253f);
       box-shadow:var(--muse-shadow);padding:26px;color:#fff
     }
@@ -312,7 +306,7 @@
     .stage-label{position:relative;z-index:2;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#b9e9e4;font-weight:800}
     .agent-core{
       position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);
-      width:160px;height:160px;border-radius:50%;display:grid;place-items:center;text-align:center;
+      width:145px;height:145px;border-radius:50%;display:grid;place-items:center;text-align:center;
       background:linear-gradient(145deg,#ff5c0a,#ff8750);box-shadow:0 0 0 18px rgba(255,255,255,.06),0 0 0 36px rgba(255,255,255,.035);
       font-weight:900;font-size:1.6rem;letter-spacing:-.03em
     }
@@ -328,7 +322,7 @@
     .c3{width:140px;left:135px;bottom:142px;transform:rotate(-23deg)}
     .c4{width:140px;left:310px;bottom:142px;transform:rotate(23deg)}
     .stage-foot{position:absolute;z-index:2;bottom:18px;left:26px;right:26px;color:#c7d9dc;font-size:.76rem;text-align:center}
-    .page-shell{width:min(1180px,calc(100% - 32px));margin:0 auto 70px;display:grid;grid-template-columns:280px minmax(0,1fr);gap:34px;align-items:start}
+    .page-shell{width:min(1180px,calc(100% - 32px));margin:0 auto 56px;display:grid;grid-template-columns:280px minmax(0,1fr);gap:34px;align-items:start}
     .toc{
       position:sticky;top:94px;background:#fff;border:1px solid var(--muse-border);border-radius:22px;padding:20px;box-shadow:0 10px 35px rgba(20,42,58,.06)
     }
@@ -447,8 +441,11 @@
       .arch-arrow{transform:rotate(90deg)}
     }
     @media(max-width:720px){
+      .hero h1{font-size:clamp(2rem,9vw,3rem);line-height:1.02}
+      .hero{padding-top:20px;padding-bottom:18px}
+
       .nav{min-height:64px;flex-wrap:wrap;padding:10px 0}.brand-logo img{width:150px}.nav-links{width:100%;gap:10px;justify-content:center;flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.nav-links a{font-size:.82rem;white-space:nowrap}
-      .hero{padding-top:28px}.agent-stage{min-height:410px;padding:20px}.agent-core{width:130px;height:130px;font-size:1.25rem}
+      .hero{padding-top:24px}.agent-stage{min-height:360px;padding:18px}.agent-core{width:118px;height:118px;font-size:1.1rem}
       .agent-node{width:118px;font-size:.68rem}.n1,.n3{left:14px}.n2,.n4{right:14px}
       .connector{display:none}
       .article{border-radius:22px;padding:22px}
@@ -468,8 +465,110 @@ document.addEventListener("DOMContentLoaded",function(){
   }
 });
 </script>
+
+
+
+<style id="muse-compact-hero-final">
+/* Intentionally strong, page-specific final hero sizing */
+body.muse-page .hero{
+  width:min(1160px,calc(100% - 40px)) !important;
+  margin:0 auto !important;
+  padding:20px 0 16px !important;
+  display:grid !important;
+  grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr) !important;
+  gap:28px !important;
+  align-items:center !important;
+}
+body.muse-page .hero > div:first-child{
+  min-width:0 !important;
+  max-width:720px !important;
+}
+body.muse-page .hero h1{
+  font-size:clamp(32px,3.15vw,46px) !important;
+  line-height:1.04 !important;
+  letter-spacing:-.035em !important;
+  margin:10px 0 12px !important;
+  max-width:720px !important;
+  text-wrap:balance !important;
+}
+body.muse-page .hero-lead{
+  font-size:.98rem !important;
+  line-height:1.58 !important;
+  max-width:64ch !important;
+  margin:0 0 12px !important;
+}
+body.muse-page .hero-actions{
+  margin-top:14px !important;
+  gap:8px !important;
+}
+body.muse-page .hero-meta{
+  margin-top:12px !important;
+  gap:7px !important;
+}
+body.muse-page .meta-pill{
+  padding:6px 9px !important;
+  font-size:.75rem !important;
+}
+body.muse-page .agent-stage{
+  min-height:320px !important;
+  padding:18px !important;
+  border-radius:24px !important;
+}
+body.muse-page .agent-core{
+  width:112px !important;
+  height:112px !important;
+  font-size:1.08rem !important;
+}
+body.muse-page .agent-node{
+  width:112px !important;
+  padding:9px !important;
+  font-size:.67rem !important;
+}
+body.muse-page .agent-node b{
+  font-size:.78rem !important;
+}
+body.muse-page .n1{left:14px !important;top:76px !important}
+body.muse-page .n2{right:14px !important;top:76px !important}
+body.muse-page .n3{left:14px !important;bottom:54px !important}
+body.muse-page .n4{right:14px !important;bottom:54px !important}
+body.muse-page .page-shell{
+  margin-top:0 !important;
+}
+
+@media(max-width:900px){
+  body.muse-page .hero{
+    grid-template-columns:1fr !important;
+    width:min(100% - 28px,1160px) !important;
+    gap:18px !important;
+  }
+  body.muse-page .hero h1{
+    font-size:clamp(30px,7vw,42px) !important;
+    max-width:none !important;
+  }
+  body.muse-page .agent-stage{
+    min-height:300px !important;
+  }
+}
+
+@media(max-width:560px){
+  body.muse-page .hero{
+    padding:14px 0 12px !important;
+  }
+  body.muse-page .hero h1{
+    font-size:clamp(28px,8.7vw,36px) !important;
+    line-height:1.03 !important;
+  }
+  body.muse-page .hero-lead{
+    font-size:.94rem !important;
+  }
+  body.muse-page .agent-stage{
+    min-height:280px !important;
+  }
+}
+</style>
+
 </head>
-<body>
+<body class="muse-page">
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="site-header">
@@ -524,14 +623,6 @@ document.addEventListener("DOMContentLoaded",function(){
   </div>
 </section>
 
-
-<figure class="featured-media">
-  <img src="../assets/images/blog/muse-ai/muse-ai-2026-og.webp"
-       alt="What Is Muse AI 2026 guide showing Meta's personal AI agent workflow, features, pricing and use cases"
-       width="1200" height="630" loading="eager" decoding="async" fetchpriority="high"
-       onerror="this.closest('.featured-media').style.display='none'"/>
-  <figcaption>Digitalford's original Muse AI explainer graphic. This is an editorial illustration, not an official Meta product screenshot.</figcaption>
-</figure>
 
 <div class="page-shell">
   <aside class="toc" aria-label="Table of contents">
