@@ -273,14 +273,14 @@
     .breadcrumbs{width:min(1200px,calc(100% - 32px));margin:20px auto 0;font-size:.9rem;color:var(--muse-muted)}
     .breadcrumbs a{color:var(--muse-muted);text-decoration:none}
     .breadcrumbs span{padding:0 8px}
-    .hero{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:28px 0 22px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(360px,.9fr);gap:30px;align-items:center}
+    .muse-hero{width:min(1200px,calc(100% - 32px));margin:0 auto;padding:28px 0 22px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(360px,.9fr);gap:30px;align-items:center}
     .eyebrow{
       display:inline-flex;align-items:center;gap:8px;
       padding:8px 12px;border:1px solid rgba(255,92,10,.18);border-radius:999px;
       background:rgba(255,92,10,.07);color:#b84000;font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em
     }
-    .hero h1{margin:14px 0 14px;font-size:clamp(2rem,4vw,4rem);line-height:1.015;letter-spacing:-.045em;color:var(--muse-navy)}
-    .hero h1 .accent{
+    .muse-hero h1{margin:14px 0 14px;font-size:clamp(2rem,4vw,4rem);line-height:1.015;letter-spacing:-.045em;color:var(--muse-navy)}
+    .muse-hero h1 .accent{
       background:linear-gradient(90deg,var(--muse-primary),#ee7b31 45%,var(--muse-teal));
       -webkit-background-clip:text;background-clip:text;color:transparent
     }
@@ -429,7 +429,7 @@
     }
     footer img{width:150px;height:auto;display:block;margin:0 auto 14px}
     @media(max-width:980px){
-      .hero{grid-template-columns:1fr}
+      .muse-hero{grid-template-columns:1fr}
       .agent-stage{min-height:430px}
       .page-shell{grid-template-columns:1fr}
       .toc{position:static}
@@ -441,11 +441,11 @@
       .arch-arrow{transform:rotate(90deg)}
     }
     @media(max-width:720px){
-      .hero h1{font-size:clamp(2rem,9vw,3rem);line-height:1.02}
-      .hero{padding-top:20px;padding-bottom:18px}
+      .muse-hero h1{font-size:clamp(2rem,9vw,3rem);line-height:1.02}
+      .muse-hero{padding-top:20px;padding-bottom:18px}
 
       .nav{min-height:64px;flex-wrap:wrap;padding:10px 0}.brand-logo img{width:150px}.nav-links{width:100%;gap:10px;justify-content:center;flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.nav-links a{font-size:.82rem;white-space:nowrap}
-      .hero{padding-top:24px}.agent-stage{min-height:360px;padding:18px}.agent-core{width:118px;height:118px;font-size:1.1rem}
+      .muse-hero{padding-top:24px}.agent-stage{min-height:360px;padding:18px}.agent-core{width:118px;height:118px;font-size:1.1rem}
       .agent-node{width:118px;font-size:.68rem}.n1,.n3{left:14px}.n2,.n4{right:14px}
       .connector{display:none}
       .article{border-radius:22px;padding:22px}
@@ -468,102 +468,146 @@ document.addEventListener("DOMContentLoaded",function(){
 
 
 
-<style id="muse-compact-hero-final">
-/* Intentionally strong, page-specific final hero sizing */
-body.muse-page .hero{
-  width:min(1160px,calc(100% - 40px)) !important;
-  margin:0 auto !important;
-  padding:20px 0 16px !important;
+
+<style id="muse-guide-hero-final-fix">
+/* FINAL isolated Muse guide hero. Unique class names prevent shared site CSS collisions. */
+body.muse-page .muse-guide-hero{
+  width:min(1320px,calc(100% - 48px)) !important;
+  margin:18px auto 26px !important;
+  padding:30px !important;
   display:grid !important;
-  grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr) !important;
-  gap:28px !important;
+  grid-template-columns:minmax(0,1.06fr) minmax(470px,.94fr) !important;
+  gap:42px !important;
   align-items:center !important;
+  background:linear-gradient(120deg,#f8fcfc 0%,#eef8f7 100%) !important;
+  border:1px solid #e4eeee !important;
+  border-radius:30px !important;
+  box-shadow:0 20px 60px rgba(20,42,58,.08) !important;
+  overflow:hidden !important;
+  position:relative !important;
 }
-body.muse-page .hero > div:first-child{
-  min-width:0 !important;
-  max-width:720px !important;
+body.muse-page .muse-guide-copy{min-width:0 !important;max-width:760px !important}
+body.muse-page .muse-guide-eyebrow{
+  display:inline-flex !important;align-items:center !important;
+  padding:9px 15px !important;border:1px solid rgba(255,92,10,.22) !important;
+  border-radius:999px !important;background:#fff7f2 !important;color:#b84000 !important;
+  font-weight:800 !important;font-size:.78rem !important;letter-spacing:.07em !important;
+  text-transform:uppercase !important;line-height:1.25 !important;
 }
-body.muse-page .hero h1{
-  font-size:clamp(32px,3.15vw,46px) !important;
-  line-height:1.04 !important;
-  letter-spacing:-.035em !important;
-  margin:10px 0 12px !important;
-  max-width:720px !important;
+body.muse-page .muse-guide-hero h1{
+  margin:16px 0 18px !important;
+  max-width:760px !important;
+  font-family:Inter,Segoe UI,Roboto,Arial,sans-serif !important;
+  font-size:clamp(40px,3.35vw,54px) !important;
+  line-height:1.03 !important;
+  letter-spacing:-.045em !important;
+  color:#1B2A41 !important;
+  font-weight:850 !important;
   text-wrap:balance !important;
+  overflow-wrap:normal !important;
+  word-break:normal !important;
 }
-body.muse-page .hero-lead{
-  font-size:.98rem !important;
-  line-height:1.58 !important;
-  max-width:64ch !important;
-  margin:0 0 12px !important;
+body.muse-page .muse-guide-accent{
+  background:linear-gradient(90deg,#ff5c0a 0%,#f07a30 48%,#0B3C49 100%) !important;
+  -webkit-background-clip:text !important;background-clip:text !important;color:transparent !important;
 }
-body.muse-page .hero-actions{
-  margin-top:14px !important;
-  gap:8px !important;
+body.muse-page .muse-guide-lead{
+  margin:0 0 20px !important;max-width:68ch !important;
+  color:#46545f !important;font-size:1.02rem !important;line-height:1.65 !important;
 }
-body.muse-page .hero-meta{
-  margin-top:12px !important;
-  gap:7px !important;
+body.muse-page .muse-guide-actions{display:flex !important;gap:12px !important;flex-wrap:wrap !important;margin-top:18px !important}
+body.muse-page .muse-guide-btn{
+  display:inline-flex !important;align-items:center !important;justify-content:center !important;
+  min-height:48px !important;padding:0 20px !important;border-radius:14px !important;
+  text-decoration:none !important;font-weight:800 !important;font-size:.94rem !important;
 }
-body.muse-page .meta-pill{
-  padding:6px 9px !important;
-  font-size:.75rem !important;
+body.muse-page .muse-guide-btn-primary{background:#ff5c0a !important;color:#fff !important;box-shadow:0 12px 26px rgba(255,92,10,.18) !important}
+body.muse-page .muse-guide-btn-secondary{background:#fff !important;color:#1B2A41 !important;border:1px solid #dfe9e8 !important}
+body.muse-page .muse-guide-meta{display:flex !important;gap:9px !important;flex-wrap:wrap !important;margin-top:20px !important}
+body.muse-page .muse-guide-meta-pill{
+  display:inline-flex !important;align-items:center !important;min-height:34px !important;
+  padding:6px 11px !important;border:1px solid #dfe9e8 !important;border-radius:999px !important;
+  background:#fff !important;color:#56636d !important;font-size:.78rem !important;font-weight:750 !important;
 }
-body.muse-page .agent-stage{
-  min-height:320px !important;
-  padding:18px !important;
-  border-radius:24px !important;
+body.muse-page .muse-guide-agent-stage{
+  position:relative !important;z-index:1 !important;
+  min-height:390px !important;padding:28px 26px 22px !important;
+  display:grid !important;
+  grid-template-columns:minmax(145px,1fr) 132px minmax(145px,1fr) !important;
+  grid-template-rows:auto minmax(105px,1fr) minmax(105px,1fr) auto !important;
+  column-gap:18px !important;row-gap:14px !important;align-items:center !important;
+  overflow:hidden !important;border-radius:28px !important;
+  background:linear-gradient(145deg,#0B3C49 0%,#0a2937 60%,#13253f 100%) !important;
+  box-shadow:0 20px 55px rgba(11,60,73,.20) !important;color:#fff !important;
 }
-body.muse-page .agent-core{
-  width:112px !important;
-  height:112px !important;
-  font-size:1.08rem !important;
+body.muse-page .muse-guide-agent-stage::before,
+body.muse-page .muse-guide-agent-stage::after{
+  content:"" !important;position:absolute !important;border-radius:50% !important;pointer-events:none !important;z-index:0 !important;
 }
-body.muse-page .agent-node{
-  width:112px !important;
-  padding:9px !important;
-  font-size:.67rem !important;
+body.muse-page .muse-guide-agent-stage::before{width:240px !important;height:240px !important;right:-85px !important;top:-75px !important;background:rgba(255,92,10,.20) !important}
+body.muse-page .muse-guide-agent-stage::after{width:180px !important;height:180px !important;left:-65px !important;bottom:-55px !important;background:rgba(99,229,211,.11) !important}
+body.muse-page .muse-guide-stage-label{
+  position:relative !important;z-index:2 !important;grid-column:1/-1 !important;grid-row:1 !important;
+  align-self:start !important;color:#b9e9e4 !important;font-size:.74rem !important;font-weight:850 !important;
+  letter-spacing:.14em !important;text-transform:uppercase !important;line-height:1.3 !important;
 }
-body.muse-page .agent-node b{
-  font-size:.78rem !important;
+body.muse-page .muse-guide-agent-core{
+  position:relative !important;z-index:2 !important;grid-column:2 !important;grid-row:2/4 !important;
+  justify-self:center !important;align-self:center !important;width:132px !important;height:132px !important;
+  border-radius:50% !important;display:grid !important;place-items:center !important;text-align:center !important;
+  background:linear-gradient(145deg,#ff5c0a,#ff8750) !important;
+  box-shadow:0 0 0 18px rgba(255,255,255,.06),0 0 0 36px rgba(255,255,255,.035) !important;
+  color:#fff !important;font-weight:900 !important;font-size:1.18rem !important;line-height:1.3 !important;
 }
-body.muse-page .n1{left:14px !important;top:76px !important}
-body.muse-page .n2{right:14px !important;top:76px !important}
-body.muse-page .n3{left:14px !important;bottom:54px !important}
-body.muse-page .n4{right:14px !important;bottom:54px !important}
-body.muse-page .page-shell{
-  margin-top:0 !important;
+body.muse-page .muse-guide-agent-node{
+  position:relative !important;z-index:2 !important;width:100% !important;max-width:175px !important;min-height:96px !important;
+  padding:14px !important;border-radius:18px !important;background:rgba(255,255,255,.10) !important;
+  border:1px solid rgba(255,255,255,.16) !important;backdrop-filter:blur(8px) !important;
+  color:#eaf4f5 !important;font-size:.75rem !important;line-height:1.5 !important;
 }
-
-@media(max-width:900px){
-  body.muse-page .hero{
-    grid-template-columns:1fr !important;
-    width:min(100% - 28px,1160px) !important;
-    gap:18px !important;
+body.muse-page .muse-guide-agent-node b{display:block !important;margin:0 0 4px !important;color:#fff !important;font-size:.92rem !important;line-height:1.3 !important}
+body.muse-page .muse-guide-node-goal{grid-column:1 !important;grid-row:2 !important;justify-self:start !important}
+body.muse-page .muse-guide-node-plan{grid-column:3 !important;grid-row:2 !important;justify-self:end !important}
+body.muse-page .muse-guide-node-tools{grid-column:1 !important;grid-row:3 !important;justify-self:start !important}
+body.muse-page .muse-guide-node-action{grid-column:3 !important;grid-row:3 !important;justify-self:end !important}
+body.muse-page .muse-guide-stage-foot{
+  position:relative !important;z-index:2 !important;grid-column:1/-1 !important;grid-row:4 !important;
+  margin:2px 0 0 !important;color:#c7d9dc !important;font-size:.76rem !important;line-height:1.45 !important;text-align:center !important;
+}
+@media(max-width:1100px){
+  body.muse-page .muse-guide-hero{grid-template-columns:1fr !important;gap:28px !important;width:min(920px,calc(100% - 32px)) !important;padding:26px !important}
+  body.muse-page .muse-guide-copy{max-width:none !important}
+  body.muse-page .muse-guide-hero h1{max-width:850px !important;font-size:clamp(38px,5.2vw,52px) !important}
+  body.muse-page .muse-guide-agent-stage{min-height:360px !important}
+}
+@media(max-width:700px){
+  body.muse-page .muse-guide-hero{width:calc(100% - 24px) !important;margin:12px auto 20px !important;padding:20px !important;border-radius:22px !important}
+  body.muse-page .muse-guide-hero h1{font-size:clamp(32px,9vw,42px) !important;line-height:1.04 !important}
+  body.muse-page .muse-guide-lead{font-size:.96rem !important;line-height:1.6 !important}
+  body.muse-page .muse-guide-actions{flex-direction:column !important}
+  body.muse-page .muse-guide-btn{width:100% !important}
+  body.muse-page .muse-guide-agent-stage{
+    grid-template-columns:1fr 104px 1fr !important;grid-template-rows:auto minmax(96px,1fr) minmax(96px,1fr) auto !important;
+    column-gap:9px !important;row-gap:10px !important;min-height:330px !important;padding:20px 14px 18px !important;border-radius:22px !important;
   }
-  body.muse-page .hero h1{
-    font-size:clamp(30px,7vw,42px) !important;
-    max-width:none !important;
-  }
-  body.muse-page .agent-stage{
-    min-height:300px !important;
-  }
+  body.muse-page .muse-guide-agent-core{width:104px !important;height:104px !important;font-size:.96rem !important}
+  body.muse-page .muse-guide-agent-node{max-width:145px !important;min-height:86px !important;padding:10px !important;font-size:.66rem !important}
+  body.muse-page .muse-guide-agent-node b{font-size:.78rem !important}
 }
-
-@media(max-width:560px){
-  body.muse-page .hero{
-    padding:14px 0 12px !important;
-  }
-  body.muse-page .hero h1{
-    font-size:clamp(28px,8.7vw,36px) !important;
-    line-height:1.03 !important;
-  }
-  body.muse-page .hero-lead{
-    font-size:.94rem !important;
-  }
-  body.muse-page .agent-stage{
-    min-height:280px !important;
-  }
+@media(max-width:480px){
+  body.muse-page .muse-guide-hero{padding:16px !important}
+  body.muse-page .muse-guide-eyebrow{font-size:.68rem !important;padding:8px 11px !important}
+  body.muse-page .muse-guide-hero h1{font-size:clamp(29px,8.7vw,36px) !important}
+  body.muse-page .muse-guide-meta-pill{font-size:.72rem !important}
+  body.muse-page .muse-guide-agent-stage{grid-template-columns:1fr !important;grid-template-rows:auto auto auto auto auto auto !important;min-height:0 !important;gap:10px !important;padding:18px !important}
+  body.muse-page .muse-guide-stage-label{grid-column:1 !important;grid-row:1 !important}
+  body.muse-page .muse-guide-agent-core{grid-column:1 !important;grid-row:2 !important;width:100px !important;height:100px !important;margin:8px auto !important}
+  body.muse-page .muse-guide-node-goal{grid-column:1 !important;grid-row:3 !important}
+  body.muse-page .muse-guide-node-plan{grid-column:1 !important;grid-row:4 !important}
+  body.muse-page .muse-guide-node-tools{grid-column:1 !important;grid-row:5 !important}
+  body.muse-page .muse-guide-node-action{grid-column:1 !important;grid-row:6 !important}
+  body.muse-page .muse-guide-agent-node{justify-self:stretch !important;max-width:none !important;min-height:0 !important}
+  body.muse-page .muse-guide-stage-foot{grid-column:1 !important;grid-row:7 !important}
 }
 </style>
 
@@ -591,35 +635,34 @@ body.muse-page .page-shell{
   <span aria-current="page">Muse AI</span>
 </nav>
 
-<section class="hero">
-  <div>
-    <span class="eyebrow">Agentic AI • Meta Muse • 2026 Guide</span>
-    <h1>What Is Muse AI? <span class="accent">How It Works, Features, Pricing, Muse Spark &amp; Real-World Use Cases</span></h1>
-    <p class="hero-lead">
+<section class="muse-guide-hero" aria-labelledby="muse-guide-title">
+  <div class="muse-guide-copy">
+    <span class="muse-guide-eyebrow">Agentic AI • Meta Muse • 2026 Guide</span>
+    <h1 id="muse-guide-title">What Is Muse AI? <span class="muse-guide-accent">How It Works, Features, Pricing, Muse Spark &amp; Real-World Use Cases</span></h1>
+    <p class="muse-guide-lead">
       A practical, evidence-focused guide to Meta's Muse personal AI agent—covering Muse Spark 1.3,
       Secure VM, connected apps, business workflows, security, pricing, developer opportunities and real-world limitations.
     </p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="#what-is-muse-ai">Start the guide</a>
-      <a class="btn btn-secondary" href="#business-use-cases">Business use cases</a>
+    <div class="muse-guide-actions">
+      <a class="muse-guide-btn muse-guide-btn-primary" href="#what-is-muse-ai">Start the guide</a>
+      <a class="muse-guide-btn muse-guide-btn-secondary" href="#business-use-cases">Business use cases</a>
     </div>
-    <div class="hero-meta">
-      <span class="meta-pill">Updated: October 7, 2026</span>
-      <span class="meta-pill">By Digitalford</span>
-      <span class="meta-pill">Official Meta sources checked</span>
-      <span class="meta-pill">~15 min read</span>
+    <div class="muse-guide-meta">
+      <span class="muse-guide-meta-pill">Updated: October 7, 2026</span>
+      <span class="muse-guide-meta-pill">By Digitalford</span>
+      <span class="muse-guide-meta-pill">Official Meta sources checked</span>
+      <span class="muse-guide-meta-pill">~15 min read</span>
     </div>
   </div>
 
-  <div class="agent-stage" role="img" aria-label="Conceptual diagram showing Muse turning a goal into a plan, using tools, browsing the web and taking actions with user approval">
-    <div class="stage-label">Personal AI Agent Workflow</div>
-    <div class="agent-core">MUSE<br/>AGENT</div>
-    <div class="agent-node n1"><b>Goal</b>Understand what the user wants done</div>
-    <div class="agent-node n2"><b>Plan</b>Break the objective into steps</div>
-    <div class="agent-node n3"><b>Tools</b>Apps, connectors, browser and skills</div>
-    <div class="agent-node n4"><b>Action</b>Execute with permission and approval</div>
-    <div class="connector c1"></div><div class="connector c2"></div><div class="connector c3"></div><div class="connector c4"></div>
-    <div class="stage-foot">Original explanatory visual by Digitalford — not an official Meta product screenshot.</div>
+  <div class="muse-guide-agent-stage" role="img" aria-label="Conceptual diagram showing Muse turning a goal into a plan, using tools and taking actions with user approval">
+    <div class="muse-guide-stage-label">Personal AI Agent Workflow</div>
+    <div class="muse-guide-agent-core">MUSE<br/>AGENT</div>
+    <div class="muse-guide-agent-node muse-guide-node-goal"><b>Goal</b>Understand what the user wants done</div>
+    <div class="muse-guide-agent-node muse-guide-node-plan"><b>Plan</b>Break the objective into steps</div>
+    <div class="muse-guide-agent-node muse-guide-node-tools"><b>Tools</b>Apps, connectors, browser and skills</div>
+    <div class="muse-guide-agent-node muse-guide-node-action"><b>Action</b>Execute with permission and approval</div>
+    <div class="muse-guide-stage-foot">Original explanatory visual by Digitalford — not an official Meta product screenshot.</div>
   </div>
 </section>
 
